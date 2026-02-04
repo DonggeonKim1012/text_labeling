@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # === Config ===
-H5FILE="/mnt/ddrive/Downloads/with_mask_teleop/with_mask_teleop/vertical/episode_88.hdf5"
-COMPACTED_FILE="${H5FILE%.hdf5}_compacted.hdf5"
+H5FILE="/home/robros/labelmaker_test/episode_26.h5"
+COMPACTED_FILE="${H5FILE%.hdf5}_compacted.h5"
 
 # === 1. Run label.py ===
 echo "[1] Running label.py..."

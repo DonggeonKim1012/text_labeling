@@ -36,7 +36,7 @@ def print_datasets(name, obj):
             print(f"[ERROR] {name} — {e}")
 
 # === Set path to your file
-hdf5_path = '/mnt/ddrive/Downloads/inbox_episode_1.hdf5'
+hdf5_path = '/home/robros/labelmaker_test/episode_87.h5'
 #print("Exists?", os.path.exists(hdf5_path))
 with h5py.File(hdf5_path, 'r') as f:
     print(f"\nScanning HDF5 file: {hdf5_path}\n{'='*50}")
